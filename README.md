@@ -1,4 +1,4 @@
-# Vertex Ordering Problem Solver
+# Optimal Graph Structure
 
 ## Overview
 This Python project implements search algorithms (BFS, DFS, UCS) to solve an optimization problem known as the vertex ordering problem. The goal is to find an optimal ordering of vertices in a graph structure, considering associated costs of parent sets for each vertex. This problem has applications in various fields, including machine learning (e.g., Bayesian Network Learning).
