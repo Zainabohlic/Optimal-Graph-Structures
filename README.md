@@ -34,3 +34,6 @@ Three datasets are provided for experimentation. The project evaluates the searc
 4. Run the following command to execute the program:
    ```bash
    python SourceCode.py
+**If you are using Google Collab**   
+1. Download the files and upload on your google drive.
+2. Add the text files and change in the code the filename you want to run.   
