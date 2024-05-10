@@ -28,12 +28,27 @@ Three datasets are provided for experimentation. The project evaluates the searc
 - **datasets/**: Contains input datasets for experimentation.
 
 ## Usage
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Ensure Python 3.x is installed on your system.
-4. Run the following command to execute the program:
-   ```bash
-   python SourceCode.py
-**If you are using Google Collab**   
-1. Download the files and upload on your google drive.
-2. Add the text files and change in the code the filename you want to run.   
+#### Running IPython Notebook on Conda
+
+To run an IPython Notebook (`.ipynb` file) on Conda, follow these steps:
+
+1. **Activate Conda Environment:** Open your terminal or command prompt and activate your Conda environment where you have installed Jupyter Notebook:
+
+    `conda activate (enviornment name)`
+
+   Replace `(environment name)` with the name of your Conda environment.
+
+3. **Install Jupyter Notebook (if not installed):** If you haven't installed Jupyter Notebook in your Conda environment, you can install it using the following command:
+
+   `conda install jupyter`
+   
+5. **Navigate to Notebook Directory:** Use the `cd` command to navigate to the directory where your `.ipynb` file is located.
+
+6. **Launch Jupyter Notebook:** Once you are in the directory containing your notebook file, run the following command to launch Jupyter Notebook:
+
+    `jupyter notebook`
+   
+8. **Access Notebook in Browser:** After running the above command, Jupyter Notebook will open in your default web browser. You should see a file browser interface where you can navigate to your `.ipynb` file. Click on the file to open and run it.
+
+9. **Run Notebook Cells:** Once the notebook is open, you can run each cell individually by selecting it and pressing `Shift + Enter`. Alternatively, you can run all cells by selecting `Cell` from the menu and choosing `Run All`.
+
