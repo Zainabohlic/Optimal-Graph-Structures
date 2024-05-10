@@ -24,7 +24,7 @@ The input data represents vertices and their possible parent sets along with ass
 Three datasets are provided for experimentation. The project evaluates the search algorithms on these datasets to determine their effectiveness in finding optimal solutions.
 
 ## Project Structure
-- **sourceCode.pynb**: Contains the main code for reading input data, constructing the graph, and applying search algorithms.
+- **sourceCode.ipynb**: Contains the main code for reading input data, constructing the graph, and applying search algorithms.
 - **datasets**: Contains input datasets for experimentation.
 
 ## Usage
